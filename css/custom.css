@@ -1,0 +1,27 @@
+#footer {
+    background: transparent !important;
+}
+#page-header {
+    background: transparent !important;
+}
+
+#footer::before {
+    background: transparent !important;
+}
+#page-header::before {
+    background: transparent !important;
+}
+
+[dark-theme="dark"] #footer::before {
+    background: transparent !important;
+}
+[dark-theme="dark"] #page-header::before {
+    background: transparent !important;
+}
+
+[dark-theme="light"] #footer::before {
+    background: transparent !important;
+}
+[dark-theme="light"] #page-header::before {
+    background: transparent !important;
+}
